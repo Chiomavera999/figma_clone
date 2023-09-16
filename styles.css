@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topText{
+    
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    width: 80%;
+}
+.topText h1{
+    margin: 10px;
+    font-size: 50px;
+
+}
+.topText p{
+    width: 50%;
+    margin: 0 auto;
+}
+.bg_purple{
+    background-color: rgb(188, 149, 206);
+    padding-bottom:50px ;
+}
+.bg_purpletext{
+    text-align: center;
+    margin: 40px;
+    padding: 30px;
+}
+
+.bg_purpletext p{
+    margin: 20px;
+}
+.big-box{
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+    margin: auto auto;
+    gap: 5px;
+}
+.big-box h2{
+    margin:20px 0px 10px 0px ;
+    
+}
+.small_box{
+    width: 300px;
+}
+button{
+    background-color: black;
+    color: white;
+    margin: 30px;
+    padding:10px ;
+    font-size: 18px;
+    border-radius: 10px;
+   display: block;
+   width: 130px;
+   margin: 30px  auto;
+}
+
+.structurebox button{
+    text-align: left;
+    margin: 10px;
+
+}
+.structurebox{
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+    margin: auto auto;
+    gap: 5px;
+   align-items: center;
+}
+.innerbox{
+    font-size: 25px;
+}
+.structurebox h1{
+    padding: 10px;
+}
